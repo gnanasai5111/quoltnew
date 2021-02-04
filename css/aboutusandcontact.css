@@ -1,0 +1,83 @@
+/* about us section heading */
+/* .Aboutusheading {
+  padding-top: 120px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  margin-bottom: 75px;
+} */
+.Aboutusheading {
+  padding-top: 100px;
+  font-size: 1.5rem;
+  color: #222;
+  font-weight: 500;
+    letter-spacing: 21px;
+  font-family: sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-bottom: 100px;
+}
+/* shadow for aboutus section */
+/* .textshadow1{
+  margin-top: -103px;
+  width: 16%;
+  height: 24px;
+  opacity: 0.4;
+  margin-bottom: 58px;
+} */
+/* about us background image */
+.aboutus-image{
+  width:100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+  background-attachment: fixed;
+}
+
+/* contact section */
+.contactinfo{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 100px;
+  background-color: #1E3335 ;
+  color: #ffffff;
+}
+/* footer */
+.lastfooter{
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 8px;
+}
+/* removing bullet points and padding */
+.nostyle{
+  list-style-type: none;
+  padding-left: 12px;
+}
+/* map */
+.mapvideo{
+  position: relative;
+}
+.container video {
+  position: relative;
+  z-index: 0;
+}
+
+
+/* social icons on conact section */
+
+.fa-instagram:hover {
+  color: #833ab4;
+  transform: rotate(720deg);
+  transition: 1s;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+  transform: rotate(720deg);
+  transition: 1s;
+}
+
+.fa-instagram, .fa-linkedin {
+  color: #ffffff;
+}

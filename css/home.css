@@ -1,0 +1,178 @@
+/* navbar and video section */
+/* adding margin between navbar items */
+.navbar li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* nav items on active lightgreen bottom border */
+.nav-item .active {
+  border-bottom: 3px solid #01c7a4;
+}
+
+/*adding padding to logo   */
+.navbar .navbar-brand {
+  padding-left: 100px;
+}
+
+/* adding padding for nav items */
+.bar-padding {
+  padding-right: 100px;
+}
+
+/* font style for nav items  */
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+ color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: transparent !important;
+  padding: 7px 0;
+  margin: 0 15px;
+}
+
+#videosection {
+  line-height: 0;
+  position: relative;
+}
+
+/* adding text on video(overlaytext) */
+.overlaytext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 100px;
+  color: #ffffff;
+}
+.overlaytext-mobile{
+  position: absolute;
+  display: none;
+}
+/* overlay heading on video */
+.quolt {
+  z-index: 6;
+  font-family: Roboto;
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  white-space: nowrap;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+  text-align: inherit;
+  line-height: 63px;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 60px;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0, 0);
+  visibility: visible;
+  padding-bottom: 10px;
+}
+/* overlay para on video */
+.paragraph {
+  z-index: 7;
+  font-family: Roboto;
+  height: auto;
+  width: auto;
+  text-decoration: none;
+  white-space: nowrap;
+  min-height: 0;
+  min-width: 0;
+  max-height: none;
+  max-width: none;
+  text-align: inherit;
+  line-height: 28px;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-size: 23px;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  transform: translate(0, 0);
+  visibility: visible;
+}
+
+
+/* overlaytext animation fadein and moving up on loading */
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0)
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  -moz-animation-name: fadeInUp;
+}
+
+
+/* The side navigation menu for tablets and mobiles */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1034;
+  text-align: center;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: floralwhite;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color:#00FFFF;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}

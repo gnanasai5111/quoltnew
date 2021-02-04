@@ -1,0 +1,413 @@
+@media (max-width:768px) {
+
+  /* loading logo */
+  .loading {
+    width: 150px;
+  }
+
+  /* navigation logo */
+  .navbar-brand {
+    padding-left: 0 !important;
+  }
+
+  .navlogo {
+    width: 70px !important;
+  }
+
+  /* padding in our service section (text and gif) */
+  .txt {
+    padding-top: 30px;
+  }
+
+  /* shadow for our service */
+  /* .textshadow5{
+    width:40%;
+  } */
+  /*padding and fonts for service section*/
+  .servicesheading, .worksheading1, .ourprocessheading, .Aboutusheading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 0.78rem;
+    letter-spacing: 18px;
+  }
+  .servicesheading{
+    width: 94%;
+  }
+
+  .headingofourservices {
+    font-size: 2rem;
+  }
+
+  /* margin and padding between work and service section and our works heading*/
+  .worksheading1 {
+    margin-top: 0;
+  }
+
+  /* text shadow for our works */
+  /* .textshadow {
+    margin-bottom: 30px;
+    width: 60%;
+  } */
+  /* making our work section images of full width */
+  .ourworkimage {
+    width: 100%;
+  }
+
+  /* removing padding and setting object position so it touches end to end */
+  .first, .last {
+    padding: 0;
+  }
+
+  /* setting object position for our work section images*/
+  .iot, .sanitary, .cutlery, .arduino, .toaster, .logo {
+    object-position: 0 !important;
+  }
+
+  .faucet, .gameboy, .dwarf, .vortex {
+    object-position: 0 !important;
+  }
+
+  .chair {
+    object-position: -171px !important;
+  }
+
+  .directionpad {
+    object-position: -59px !important;
+  }
+
+  .lcr {
+    object-position: -170px !important;
+  }
+
+  .modulos {
+    object-position: -171px !important;
+  }
+
+  /* our works section margin */
+  #ourworks {
+    margin-bottom: 0;
+  }
+
+  /* padding to process section */
+  /* .ourprocessheading {
+    padding-top: 78px;
+  } */
+  /* text shadow for about us section */
+  /* .textshadow1 {
+    width: 36%;
+  } */
+}
+
+/* setting object position for our work section images*/
+@media (min-width:541px) and (max-width:580px) {
+  .lcr {
+    object-position: -140px !important;
+  }
+
+  .modulos {
+    object-position: -139px !important;
+  }
+
+  .chair {
+    object-position: -44px !important;
+  }
+
+  .directionpad {
+    object-position: -25px !important;
+  }
+}
+
+/* pop up window size for big screens */
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+    max-width: 1373px;
+  }
+
+  .col-md-6 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+  /* overlaytext on video */
+  .overlaytext {
+    top: 200px !important;
+    left: 60px;
+  }
+
+  /* overlay text heading */
+  .quolt {
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  /* overlay text para */
+  .paragraph {
+    font-size: 14px;
+  }
+
+  /* our service text description */
+  .txt {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width:540px) {
+
+  /* video width for mobiles */
+  .home-video {
+    width: 400%;
+    height: 100vh;
+    margin-left: -150%;
+  }
+
+  .video-container {
+    overflow: hidden;
+  }
+
+  /* overlaytext on video */
+  .overlaytext {
+    display: none;
+  }
+
+  .overlaytext-mobile {
+    display: block;
+    bottom: -87px;
+    /* top: 50%;
+    width: 50%; */
+    left: 10px;
+    z-index: 2;
+    /* background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px); */
+  }
+
+  .quolt1 {
+    /* color: #fff; */
+    font-size: 1.25rem;
+    /* text-align: center; */
+  }
+
+  .paragraph1 {
+    /* color: #fff; */
+    font-size: 0.745rem;
+    line-height: 1.5;
+    /* text-align: center; */
+  }
+  .headingservices{
+    position: absolute;
+    z-index: 4;
+    top: 108px;
+    left: 50%;
+    padding-top: 100px;
+    white-space: nowrap;
+    transform: translate(-50%,-50%);
+  }
+  .servicesheading{
+    color: #fff;
+  }
+  /* service section all 3 headings */
+  .headingofourservices {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* white-space: nowrap; */
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .service-container1 {
+    background-position: -333px 0 !important;
+    background-size: cover !important;
+  }
+
+  .service-container2 {
+    background-position: -287px 0 !important;
+    background-size: cover !important;
+  }
+
+  .service-container3 {
+    background-position: -400px 0 !important;
+    background-size: cover !important;
+  }
+  /* .headingservices{
+    position: absolute;
+    z-index: 4;
+    top: 108px;
+    left: 50%;
+    padding-top: 100px;
+    white-space: nowrap;
+    transform: translate(-50%,-50%);
+  }
+  .servicesheading{
+    color: #fff;
+  } */
+
+  /* service section paragraphs */
+  .servicesparagraph {
+    font-size: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+  }
+
+  /* service section for desktop and mobiles */
+  /* .ourservice-desktop {
+    display: none;
+  }
+
+  .ourservice-mobile {
+    display: block;
+    padding-right: 0;
+    padding-left: 0;
+  } */
+
+}
+
+@media (min-width:540px) and (max-width:768px) {
+
+  /* overlaytext on video  */
+  .quolt {
+    font-size: 22px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 40px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  .overlaytext {
+    top: 150px;
+    left: 45px;
+  }
+}
+
+/* hiding our work section in tablet mode */
+@media (min-width: 768px) and (max-width: 1280px) {
+
+  /* display tablet version our worksin tablet */
+  .ourworks-tablet {
+    display: block !important;
+  }
+
+  .ourworks-desktop {
+    display: none;
+  }
+
+  /* headings for all sections */
+  .servicesheading, .worksheading1, .ourprocessheading, .Aboutusheading {
+    font-size: 1rem;
+    letter-spacing: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  /* overlaytext on  video */
+  .overlaytext {
+    top: 300px;
+  }
+}
+
+@media (max-width:400px) {
+
+  /* navbar,navlogo and navbar toggler width and padding */
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .navbar-toggler-icon {
+    width: 1em !important;
+    height: 1em !important;
+  }
+
+  .navlogo {
+    width: 40px !important;
+  }
+
+  /* our works section margin */
+  #ourworks {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:991px) {
+
+  /* align navitems in center */
+  .navbar-nav {
+    align-items: center;
+  }
+
+  /* removing nav borders */
+  .nav-item .active {
+    border-bottom: none;
+  }
+
+  /* navitems occupying entire website */
+  .bar-padding {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* video width for mobiles */
+  .home-video {
+    width: 400%;
+    height: 100vh;
+    margin-left: -150%;
+  }
+
+  .video-container {
+    overflow: hidden;
+  }
+
+  /*  our works mobiles version*/
+  .ourworks-mobile {
+    display: block;
+  }
+
+  .ourworks-desktop {
+    display: none;
+  }
+
+  /* about us section para */
+  .aboutus-para {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width:420px) {
+  .headingservices{
+    padding-top: 50px;
+  }
+}
+
+
+@media (max-width:334px) {
+
+  /* process section background */
+  .processbackground {
+    min-height: 900px;
+  }
+}
+
+/* tablet version our works */
+@media (min-width:768px) and (max-width:801px) {
+  .next {
+    margin-left: 450px !important;
+  }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
